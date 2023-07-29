@@ -1,0 +1,22 @@
+/* 定义颜色 */
+$color-ebf4ff : #ebf4ff ;
+// 定义类名
+.tab-form {//定义tab的边框样式
+  flex: 1;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 2px;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.1);
+}
+.coverparent{
+  &:hover{
+    .cover{
+      visibility: visible;
+    }
+  }
+}
+.cover {//经过显示
+ visibility: hidden;
+
+ 
+}
